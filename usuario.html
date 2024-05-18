@@ -18,19 +18,20 @@
         <div class="derecha">
             <h2>Usuario</h2>
             <div class="campos">
-                <input type="text" class="form-control" placeholder="Nombre">
-                <input type="text" class="form-control" placeholder="Apellidos">
-                <input type="text" class="form-control" placeholder="Correo electronico">
-                <input type="text" class="form-control" placeholder="Telefono">
+                <input type="text"  id='nombre' class="form-control" placeholder="Nombre" required>
+                <input type="text"  id='apellido_paterno' class="form-control" placeholder="Apellido paterno" required>
+                <input type="text"  id='apellido_materno' class="form-control" placeholder="Apellido materno" required>
+                <input type="email" id='email'  class="form-control" placeholder="Correo electrónico" required>
+                <input type="tel" id='telefono' class="form-control" placeholder="Teléfono" required>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
+                    <input class="form-check-input" type="radio" name="tipoUsuario" value="usuario" id="flexCheckDefaultUsuario" required>
+                    <label class="form-check-label" for="flexCheckDefaultUsuario">
                         Usuario
                     </label>
                 </div>
                 <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
+                    <input class="form-check-input" type="radio" name="tipoUsuario" value="enfermera" id="flexCheckDefaultEnfermera" required>
+                    <label class="form-check-label" for="flexCheckDefaultEnfermera">
                         Enfermera
                     </label>
                   </div>
@@ -39,6 +40,7 @@
         </div>
     </div>
 
+    <script src="./js/usuario.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/56442219a6.js" crossorigin="anonymous"></script>
 </body>
