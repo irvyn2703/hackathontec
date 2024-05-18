@@ -40,9 +40,11 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         .then(data => {
             console.log(data);
+            // Redirigir a una nueva página después de recibir una respuesta exitosa
+            window.location.href = 'index.html'; // Cambia 'nueva_pagina.html' por la URL deseada
         })
         .catch(error => {
-            console.error('Hubo un problema con la solicitud de la base fetch', error);
+            console.error('Hubo un problema con la solicitud fetch', error);
         });
     }
 });
