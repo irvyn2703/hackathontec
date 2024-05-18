@@ -1,0 +1,41 @@
+.contenido{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.primera{
+    width: 25vw;
+    height: 100vh;
+    background-color: blue;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.primera .foto{
+    background-image: url('../img/enfermera.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25vw;
+    height: 25vw;
+}
+
+.segunda{
+    width: 55vw;
+}
+
+.btnAgregar{
+    width: 15vw;
+    padding: 10px;
+    border: 0px;
+    background-color: #f388ad;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    font-weight: bold;
+}

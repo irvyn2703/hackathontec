@@ -1,0 +1,41 @@
+.contenido{
+    margin-top: 20px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.izquierda {
+    width: 25vw;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.izquierda .foto{
+    background-image: url('../img/enfermera.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 25vw;
+    height: 25vw;
+}
+
+.agregarCita{
+    width: 25vw;
+    background-color: #f388ad;
+    margin-top: 15px;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+}
+
+.izquierda p{
+    margin-top: 15px;
+}
+
+.derecha {
+    width: 55%;
+}

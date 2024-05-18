@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.principal{
+    background-color: #F388AD;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal .logo {
+    background-image: url('../img/logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+}
+
+.principal .titulo {
+    font-size: 3rem;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.primero{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.primero .titulo{
+    margin-left: 10px;
+}
+
+.segundo{
+    width: 40%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #F388AD;
+    position: sticky;
+}
+
+nav .logo{
+    background-image: url('../img/logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+nav .segundo{
+    display: flex;
+}
+
+nav .tercero{
+    background-color: beige;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 100%;
+}
+
+nav i{
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.tarjetas{
+    margin: 20px;
+}
+
+.tarjetas a{
+    text-decoration: none;
+}
+
